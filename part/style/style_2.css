@@ -1,0 +1,51 @@
+.strona
+{
+	background-color: #FFF2CC;
+}
+.profile
+{
+	padding: 15px;
+}
+.nickname
+{
+	text-align: center;
+	padding: 15px;
+	margin-right: 5px;
+	font-size: 20px;
+	float: left;
+	background-color: #FFD966;
+	min-height: 200px;
+	min-width: 200px;
+}
+.dane
+{
+	padding: 10px;
+	font-size: 18px;
+	float: left;
+	background-color: #FFD966;
+	min-height: 200px;
+	min-width: 200px;
+}
+.borrow
+{
+	padding: 10px;
+	clear: both;
+	
+}
+
+.book h3
+{
+	background-color: ;
+	padding: 5px;
+	border-bottom: 2px solid black;
+}
+.borrow table
+{
+	border-collapse: collapse;
+}
+
+.borrow table td, .borrow table th
+{
+	padding: 5px;
+	min-width: 100px;
+}
