@@ -1,0 +1,7 @@
+niewielka strona internetowa która:
+-pomaga zarządzać informacją o książkach
+-śledzić info o wypożyczonych książkach
+-utrzymuje baze danych użytkowników biblioteki
+
+używa bazy danych "library"
+root bez hasła

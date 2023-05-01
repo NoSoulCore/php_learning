@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Filmy</title>
+	<link rel="stylesheet" href="styll.css">
+</head>
+<body>
+	<div class="strona">
+		<div class="lewa">
+			<h3>Dostępne gatunki filmu</h3>
+			<ol>
+				<li>Sci-Fi</li>
+				<li>animacja</li>
+				<li>dramat</li>
+				<li>horror</li>
+				<li>komedia</li>
+			</ol>
+			<p>
+				<a href="kadr.jpg">Pobierz obraz</a>
+			</p>
+			<p>
+				<a href="repertuar-kin.pl">Sprawdz repertuar kin</a>
+			</p>
+		</div>
+		<div class='prawa1'>
+			<h1>FILMOTEKA</h1>
+		</div>
+		<div class='prawa2'>
+			<form method="POST" action="dodaj.php">
+				<label for="tytul">Tytył: </label>
+				<input type="text" name="tytul" id="tytul"><br>
+				<label for="tytul">Gatunek filmu: </label>
+				<input type="number" min="1" max="5" name="gatunek" id="gatunek"><br>
+				<label for="tytul">Rok produkcji: </label>
+				<input type="number" min="1900" max="2022" name="rok_produkcji" id="rok_produkcji"><br>
+				<label for="tytul">Ocena:</label>
+				<input type="number" min="1" max="10" name="ocena" id="ocena"><br>
+				<input type="reset" value="CZYŚĆ">
+				<input type="submit" value="DODAJ">
+			</form>
+		</div>
+		<div class='prawa3'>
+			<img src="kadr.jpg" alt="zdjęcia filmowe">
+		</div>
+		<div class="stopka">
+			<p class="autor">Autor strony: Dissa Maksym</p>
+		</div>
+	</div>
+</body>
+</html>

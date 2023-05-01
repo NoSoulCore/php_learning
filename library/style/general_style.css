@@ -1,0 +1,112 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.banner
+{
+	background-color: #86af49;
+	min-height: 75px;
+}
+.banner h1
+{
+	font-family: Lucida Handwriting;
+}
+.banner li
+{
+	font-weight: bold;
+	font-size: 20px;
+	display: inline;
+	border: 1px solid #e3eaa7;
+	padding: 5px;
+}
+
+.profile
+{
+	padding: 5px;
+	background-color: lightyellow;
+	min-height: 200px;
+	min-width: 200px;
+	max-height: 600px;
+	max-width: 600px;
+	height: 100%;
+	width: 30%;
+	border: 1px black solid;
+}
+.test{float: left}
+
+.strona
+{
+	background-color: lightblue;
+}
+.left_panel
+{
+	padding: 5px;
+	padding-left: 0px;
+	padding-right: 10px;
+	border: 1px red solid;
+	min-height: 200px;
+	min-width: 200px;
+	max-height: 600px;
+	max-width: 600px;
+	width: 30%;
+	background-color: aliceblue;
+	float: left;
+	
+	
+}
+.left_panel .panel
+{
+	padding: 5px;
+	background-color: bisque;
+	position: relative;
+	left: -95%;
+	min-width: 150px;
+	min-height: 150px;
+	border: 1px red solid;
+	transition: 1s;
+	
+}
+.left_panel .panel:hover
+{
+	transition: 1s;
+	left: 0px;
+}
+.middle_panel
+{
+	float: left;
+}
+.right_panel
+{
+	float: right;
+	border: 1px red solid;
+	padding: 5px;
+	min-height: 200px;
+	min-width: 200px;
+	max-height: 600px;
+	max-width: 600px;
+	background-color: aliceblue;
+}
+.footer
+{
+	clear: both;
+}
+.panel_0
+{
+	float: left;
+	padding: 5px;
+}
+.panel_1
+{
+	position: relative;
+	top:50px;
+	float: right;
+	background-color: yellow;
+	padding: 5px;
+}
+
+ul li
+{
+	list-style-type: none;
+}
