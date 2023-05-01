@@ -5,3 +5,5 @@ niewielka strona internetowa która:
 
 używa bazy danych "library"
 root bez hasła
+
+cel: wyprobowac tworzenie stron z roznych elementow (plików) i połączyć ich za pomocą PHP
